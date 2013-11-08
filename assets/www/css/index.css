@@ -69,6 +69,13 @@ body {
     }
 }
 
+@font-face {
+  font-family: 'Autour One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Autour One'), local('AutourOne-Regular'), url(../fonts/autourone.woff) format('woff');
+}
+
 h1 {
     font-size:24px;
     font-weight:normal;
@@ -113,3 +120,52 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+lable{
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: none;
+	
+}
+
+.content-container{
+	background-color:#fff;
+	padding:15px;
+	//border: 5px solid rgba(34, 101, 139, 0.56);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+lable.header-text{
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+.sub-header{
+	height: 70px;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+}
+
+.app-title
+{
+	text-align: center;
+	font-weight: bold;
+	font-size : 30px;
+	color : #fff;
+	font-family: 'Autour One', cursive; 
+}
+
+.screen-text
+{
+	text-align: center;
+	font-weight: bold;
+	font-size : 20px;
+	color : #fff;
+	font-family: 'Autour One', cursive;
+}
+
+
+
+
